@@ -6,5 +6,8 @@ export const ELEMENTS = {
     buttonFinishLogIn:".//button[@onclick='logIn()']",
     textValidateWelcome: "#nameofuser",
     buttonLogOut:"#logout2",
-    buttonPhones:`//*[@onclick="byCat('phone')"]`
+    buttonPhones:`//*[@onclick="byCat('phone')"]`,
+    categoriePhone:`[onclick="byCat('phone')"]`,
+    categorieLaptos:`[onclick="byCat('notebook')"]`,
+    categorieMonitors:`[onclick="byCat('monitor')"]`
 }
