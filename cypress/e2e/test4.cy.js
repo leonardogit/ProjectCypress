@@ -14,5 +14,6 @@ describe('Test Part 4', () => {
         LoginPage.fillPasswordLogIn();
         LoginPage.clickFinishLogIn();
         LoginPage.validatePageWelcomeUser();
+        LoginPage.validateSubCategories();
     })
   })
