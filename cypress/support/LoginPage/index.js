@@ -39,6 +39,12 @@ class LoginPage {
         cy.xpath(elements.buttonPhones).click()
         cy.wait(500)
     }
+    validateSubCategories(){
+        cy.wait(500)
+        cy.get(elements.categoriePhone).should('exist'),
+        cy.get(elements.categorieLaptos).should('exist'),
+        cy.get(elements.categorieMonitors).should('exist')
+    }
 }
 
 export default new LoginPage();
