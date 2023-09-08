@@ -63,4 +63,4 @@ Leonardo Camargos Lemes
 
 ## 🎁 Thank you
 
-Agradeço a todos que tiraram um tempo para ler essa doc foi feita com muito carinho <3
+Thanks to everyone who took the time to read this doc, it was made with a lot of love <3
